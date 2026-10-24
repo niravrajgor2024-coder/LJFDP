@@ -1,0 +1,14 @@
+Below is a complete, responsive Contact Us page using HTML, CSS, and JavaScript. It includes Name, Email, Phone, Subject, and Message fields, validation, and success/error feedback.
+
+To send inquiries to niravrajgor2012@gmail.com, this example uses FormSubmit, an email forwarding service, so you don't need to build your own backend.
+
+
+##  How to set it up
+
+1. Create a folder containing `index.html`, `style.css`, and `script.js`.
+2. Open `index.html` in your browser to view the page.
+3. Deploy the page to a hosting service if you want it online.
+4. Activate email delivery: Submit a test message and check `niravrajgor2012@gmail.com` for FormSubmit's activation email. Follow its confirmation instructions.
+5. Test the form again to verify that inquiries arrive in your inbox.
+
+Important: This is a simple frontend integration, not a complete production spam-prevention system. For a public website, add server-side validation and stronger spam protection if needed. Never put private email credentials or API keys in frontend JavaScript.

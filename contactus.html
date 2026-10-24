@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="contact-section">
+    <div class="contact-info">
+      <h1>Get in Touch</h1>
+      <p>Have a question or business inquiry? Send me a message!</p>
+      <div class="info-item">✉️ niravrajgor2012@gmail.com</div>
+      <div class="info-item">💬 I look forward to hearing from you.</div>
+    </div>
+
+    <form id="contactForm">
+      <h2>Contact Me</h2>
+
+      <input type="text" name="name" placeholder="Full Name"
+             required maxlength="100">
+
+      <input type="email" name="email" placeholder="Email Address"
+             required maxlength="254">
+
+      <input type="tel" name="phone" placeholder="Phone Number (Optional)"
+             maxlength="25">
+
+      <input type="text" name="subject" placeholder="Subject"
+             required maxlength="150">
+
+      <textarea name="message" placeholder="Your Message"
+                rows="5" required maxlength="5000"></textarea>
+
+      <!-- Honeypot spam protection -->
+      <input type="text" name="_honey" class="honeypot"
+             tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <button type="submit" id="submitBtn">Send Message</button>
+      <p id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
